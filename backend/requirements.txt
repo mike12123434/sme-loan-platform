@@ -1,4 +1,5 @@
-pip install --upgrade pip setuptools wheel
+setuptools>=65.0 
+wheel>=0.40
 
 # ── FastAPI 核心
 fastapi==0.110.0
