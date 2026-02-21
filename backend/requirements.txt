@@ -1,0 +1,19 @@
+# ── Web Framework
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+# ── Data Validation
+pydantic==2.6.1
+
+# ── ML stack — pinned to Python 3.11 compatible wheels
+scikit-learn==1.4.0
+xgboost==2.0.3
+imbalanced-learn==0.12.0
+
+# ── Data
+pandas==2.2.0
+numpy==1.26.4
+
+# ── Utils
+python-dotenv==1.0.1
