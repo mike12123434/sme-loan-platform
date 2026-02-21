@@ -1,0 +1,15 @@
+/* globals.css — Next.js App Router 必要檔案 */
+/* 實際樣式都寫在 page.tsx 的 <style> 標籤裡，這裡只需要基本 reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
